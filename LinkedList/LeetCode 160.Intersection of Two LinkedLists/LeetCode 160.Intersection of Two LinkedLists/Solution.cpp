@@ -20,7 +20,7 @@ int getListLen(ListNode *head) {
     return len;
 }
 
-// 将指针向前移动至多出结点个数后面的个数
+// 将指针向前移动至多出节点个数后面的个数
 ListNode *forward_long_list(int long_len, int short_len, ListNode *head) {
     int delta = long_len - short_len;
     ListNode *p = head;
@@ -45,7 +45,7 @@ ListNode * Solution::getIntersectionNode1(ListNode *headA, ListNode *headB) {
     
     ListNode *bPtr = headB;
     while (bPtr) {
-        // 在node_set集合中查找 是否有headB链表的结点，如果找到了就是交点
+        // 在node_set集合中查找 是否有headB链表的节点，如果找到了就是交点
         if (node_set.find(bPtr) != node_set.end()) {
             return bPtr;
         }
@@ -73,9 +73,9 @@ ListNode * Solution::getIntersectionNode2(ListNode *headA, ListNode *headB) {
     ListNode *aPtr = headA;
     ListNode *bPtr = headB;
     while (aPtr && bPtr) {
-        // 判断两个结点是否相同
+        // 判断两个节点是否相同
         if (aPtr == bPtr) {
-            // 如果两个指针指向了同一结点，说明找到了这两个链表的交点
+            // 如果两个指针指向了同一节点，说明找到了这两个链表的交点
             return aPtr;
         }
         aPtr = aPtr->next;

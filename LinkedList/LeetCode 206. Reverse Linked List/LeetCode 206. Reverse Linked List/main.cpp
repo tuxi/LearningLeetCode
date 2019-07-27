@@ -8,7 +8,7 @@
 
 /*
  链表逆序1
- 已知链表头结点指针head，将链表逆序，不申请额外空间
+ 已知链表头节点指针head，将链表逆序，不申请额外空间
  原链表为 10->11->12->13->14->15->16
  反转后 16->15->14->13->12->11->10
  
@@ -31,16 +31,16 @@ class Solution {
 public:
     // 使用头插法实现单链表反转
     ListNode *reverseList(ListNode *head) {
-        // 定义临时指针变量，指向头结点
+        // 定义临时指针变量，指向头节点
         ListNode *p = head;
         // 定义新的链表，作为反转后的链表
         ListNode *new_head = NULL;
         while (p) {
-            // 获取当前链表的下一个p结点
+            // 获取当前链表的下一个p节点
             ListNode *next = p->next;
-            // 当前结点的next指针指向新链表头部
+            // 当前节点的next指针指向新链表头部
             p->next = new_head;
-            // 更改新链表头部为当前结点
+            // 更改新链表头部为当前节点
             new_head = p;
             // 移动
             p = next;

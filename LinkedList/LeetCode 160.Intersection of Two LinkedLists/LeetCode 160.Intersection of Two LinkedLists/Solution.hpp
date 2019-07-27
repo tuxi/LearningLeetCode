@@ -8,8 +8,8 @@
 
 /*
  使用set集合求交集
- 1.遍历链表A，将链表A中结点对应的指针地址，插入set集合。
- 2.遍历链表B，将链表B中结点对应的指针地址，在set集合中查找，找到set集合中第一个结点地址，就是两个链表的交点。
+ 1.遍历链表A，将链表A中节点对应的指针地址，插入set集合。
+ 2.遍历链表B，将链表B中节点对应的指针地址，在set集合中查找，找到set集合中第一个节点地址，就是两个链表的交点。
  */
 
 #ifndef Solution1_hpp
@@ -29,8 +29,8 @@ class Solution {
 public:
     // 第一种方法：
     // 通过set集合查找headA和headB这两个集合的交点
-    // @param headA 链表A的头结点指针
-    // @param headB 链表B的头结点指针
+    // @param headA 链表A的头节点指针
+    // @param headB 链表B的头节点指针
     ListNode *getIntersectionNode1(ListNode *headA, ListNode *headB);
     
     // 第二种方法：

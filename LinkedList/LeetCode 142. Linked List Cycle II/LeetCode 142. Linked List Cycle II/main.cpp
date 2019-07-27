@@ -10,7 +10,7 @@
  LeetCode 142. Linked List Cycle II
  https://leetcode.com/problems/linked-list-cycle-ii/
  链表求环
- 已知链表中可能存在环，若有环则返回环的起始结点，否则返回NULL
+ 已知链表中可能存在环，若有环则返回环的起始节点，否则返回NULL
  
  实现方式：
  1.通过set集合实现

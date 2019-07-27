@@ -20,7 +20,7 @@ ListNode *Solution::detectCycle1(ListNode *head) {
         if (node_set.find(p) != node_set.end()) {
             return p;
         }
-        // 将结点插入到集合
+        // 将节点插入到集合
         node_set.insert(p);
         p = p->next;
     }
@@ -33,7 +33,7 @@ ListNode *Solution::detectCycle2(ListNode *head) {
     ListNode *fast = head;
     // 慢指针
     ListNode *slow = head;
-    // 相遇的结点
+    // 相遇的节点
     ListNode *meet = NULL;
     
     while (fast) {
@@ -42,14 +42,14 @@ ListNode *Solution::detectCycle2(ListNode *head) {
         fast = fast->next;
         
         if (!fast) {
-            // 如果fast遇到链表尾结点，则返回NULL
+            // 如果fast遇到链表尾节点，则返回NULL
             return NULL;
         }
         
         // 快指针再走一步
         fast = fast->next;
         if (fast == slow) {
-            // 如果快慢指针相遇，则记录相遇的结点
+            // 如果快慢指针相遇，则记录相遇的节点
             meet = fast;
             break;
         }
@@ -61,7 +61,7 @@ ListNode *Solution::detectCycle2(ListNode *head) {
     ListNode *ptr = head;
     while (ptr && meet) {
         if (ptr == meet) {
-            // 当某个与meet相遇，那就证明此结点是环的起始结点
+            // 当某个与meet相遇，那就证明此节点是环的起始节点
             return meet;
         }
         // 没有相遇就各走一步

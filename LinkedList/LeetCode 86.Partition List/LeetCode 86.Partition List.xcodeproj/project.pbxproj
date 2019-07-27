@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D266E8AB22EBE00000AA2B96 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D266E8AA22EBE00000AA2B96 /* main.cpp */; };
+		D2E649D722EC6FFE005DC513 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2E649D622EC6FFE005DC513 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D266E8A522EBE00000AA2B96 /* CopyFiles */ = {
+		D2E649D122EC6FFE005DC513 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D266E8A722EBE00000AA2B96 /* LeetCode 92. Reverse Linked List II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode 92. Reverse Linked List II"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D266E8AA22EBE00000AA2B96 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D2E649D322EC6FFE005DC513 /* LeetCode 86.Partition List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode 86.Partition List"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E649D622EC6FFE005DC513 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D266E8A422EBE00000AA2B96 /* Frameworks */ = {
+		D2E649D022EC6FFE005DC513 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D266E89E22EBE00000AA2B96 = {
+		D2E649CA22EC6FFD005DC513 = {
 			isa = PBXGroup;
 			children = (
-				D266E8A922EBE00000AA2B96 /* LeetCode 92. Reverse Linked List II */,
-				D266E8A822EBE00000AA2B96 /* Products */,
+				D2E649D522EC6FFE005DC513 /* LeetCode 86.Partition List */,
+				D2E649D422EC6FFE005DC513 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D266E8A822EBE00000AA2B96 /* Products */ = {
+		D2E649D422EC6FFE005DC513 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D266E8A722EBE00000AA2B96 /* LeetCode 92. Reverse Linked List II */,
+				D2E649D322EC6FFE005DC513 /* LeetCode 86.Partition List */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D266E8A922EBE00000AA2B96 /* LeetCode 92. Reverse Linked List II */ = {
+		D2E649D522EC6FFE005DC513 /* LeetCode 86.Partition List */ = {
 			isa = PBXGroup;
 			children = (
-				D266E8AA22EBE00000AA2B96 /* main.cpp */,
+				D2E649D622EC6FFE005DC513 /* main.cpp */,
 			);
-			path = "LeetCode 92. Reverse Linked List II";
+			path = "LeetCode 86.Partition List";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D266E8A622EBE00000AA2B96 /* LeetCode 92. Reverse Linked List II */ = {
+		D2E649D222EC6FFE005DC513 /* LeetCode 86.Partition List */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D266E8AE22EBE00000AA2B96 /* Build configuration list for PBXNativeTarget "LeetCode 92. Reverse Linked List II" */;
+			buildConfigurationList = D2E649DA22EC6FFE005DC513 /* Build configuration list for PBXNativeTarget "LeetCode 86.Partition List" */;
 			buildPhases = (
-				D266E8A322EBE00000AA2B96 /* Sources */,
-				D266E8A422EBE00000AA2B96 /* Frameworks */,
-				D266E8A522EBE00000AA2B96 /* CopyFiles */,
+				D2E649CF22EC6FFE005DC513 /* Sources */,
+				D2E649D022EC6FFE005DC513 /* Frameworks */,
+				D2E649D122EC6FFE005DC513 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "LeetCode 92. Reverse Linked List II";
-			productName = "LeetCode 92. Reverse Linked List II";
-			productReference = D266E8A722EBE00000AA2B96 /* LeetCode 92. Reverse Linked List II */;
+			name = "LeetCode 86.Partition List";
+			productName = "LeetCode 86.Partition List";
+			productReference = D2E649D322EC6FFE005DC513 /* LeetCode 86.Partition List */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D266E89F22EBE00000AA2B96 /* Project object */ = {
+		D2E649CB22EC6FFD005DC513 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = xiaoyuan;
 				TargetAttributes = {
-					D266E8A622EBE00000AA2B96 = {
+					D2E649D222EC6FFE005DC513 = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
-			buildConfigurationList = D266E8A222EBE00000AA2B96 /* Build configuration list for PBXProject "LeetCode 92. Reverse Linked List II" */;
+			buildConfigurationList = D2E649CE22EC6FFD005DC513 /* Build configuration list for PBXProject "LeetCode 86.Partition List" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = D266E89E22EBE00000AA2B96;
-			productRefGroup = D266E8A822EBE00000AA2B96 /* Products */;
+			mainGroup = D2E649CA22EC6FFD005DC513;
+			productRefGroup = D2E649D422EC6FFE005DC513 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D266E8A622EBE00000AA2B96 /* LeetCode 92. Reverse Linked List II */,
+				D2E649D222EC6FFE005DC513 /* LeetCode 86.Partition List */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D266E8A322EBE00000AA2B96 /* Sources */ = {
+		D2E649CF22EC6FFE005DC513 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D266E8AB22EBE00000AA2B96 /* main.cpp in Sources */,
+				D2E649D722EC6FFE005DC513 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D266E8AC22EBE00000AA2B96 /* Debug */ = {
+		D2E649D822EC6FFE005DC513 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		D266E8AD22EBE00000AA2B96 /* Release */ = {
+		D2E649D922EC6FFE005DC513 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +236,7 @@
 			};
 			name = Release;
 		};
-		D266E8AF22EBE00000AA2B96 /* Debug */ = {
+		D2E649DB22EC6FFE005DC513 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -245,7 +245,7 @@
 			};
 			name = Debug;
 		};
-		D266E8B022EBE00000AA2B96 /* Release */ = {
+		D2E649DC22EC6FFE005DC513 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -257,25 +257,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D266E8A222EBE00000AA2B96 /* Build configuration list for PBXProject "LeetCode 92. Reverse Linked List II" */ = {
+		D2E649CE22EC6FFD005DC513 /* Build configuration list for PBXProject "LeetCode 86.Partition List" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D266E8AC22EBE00000AA2B96 /* Debug */,
-				D266E8AD22EBE00000AA2B96 /* Release */,
+				D2E649D822EC6FFE005DC513 /* Debug */,
+				D2E649D922EC6FFE005DC513 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D266E8AE22EBE00000AA2B96 /* Build configuration list for PBXNativeTarget "LeetCode 92. Reverse Linked List II" */ = {
+		D2E649DA22EC6FFE005DC513 /* Build configuration list for PBXNativeTarget "LeetCode 86.Partition List" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D266E8AF22EBE00000AA2B96 /* Debug */,
-				D266E8B022EBE00000AA2B96 /* Release */,
+				D2E649DB22EC6FFE005DC513 /* Debug */,
+				D2E649DC22EC6FFE005DC513 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D266E89F22EBE00000AA2B96 /* Project object */;
+	rootObject = D2E649CB22EC6FFD005DC513 /* Project object */;
 }
