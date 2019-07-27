@@ -5,4 +5,4 @@
 - LeetCode 92. Reverse Linked List II
 - LeetCode 160.Intersection of Two LinkedLists
 - LeetCode 142. Linked List Cycle II
-
+- LeetCode 86.Partition List
