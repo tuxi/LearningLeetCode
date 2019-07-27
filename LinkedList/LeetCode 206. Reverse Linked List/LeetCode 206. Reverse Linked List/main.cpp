@@ -4,7 +4,17 @@
 //
 //  Created by swae on 2019/7/26.
 //  Copyright © 2019 xiaoyuan. All rights reserved.
-//
+//  使用头插法实现单链表反转
+
+/*
+ 链表逆序1
+ 已知链表头结点指针head，将链表逆序，不申请额外空间
+ 原链表为 10->11->12->13->14->15->16
+ 反转后 16->15->14->13->12->11->10
+ 
+ 来自：https://leetcode.com/problems/reverse-linked-list/
+ 难度：easy
+ */
 
 #include <iostream>
 
