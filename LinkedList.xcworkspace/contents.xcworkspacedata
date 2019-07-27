@@ -13,4 +13,7 @@
    <FileRef
       location = "group:../../../../../System/Volumes/Data/Users/swae/Documents/Github/LearningLeetCode/LinkedList/LeetCode 92. Reverse Linked List II/LeetCode 92. Reverse Linked List II.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
 </Workspace>
