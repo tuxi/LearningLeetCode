@@ -7,28 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D266E8AB22EBE00000AA2B96 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D266E8AA22EBE00000AA2B96 /* main.cpp */; };
+		D2BD7B1F22EBF0BD00AFB10D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2BD7B1E22EBF0BD00AFB10D /* main.cpp */; };
+		D2BD7B3622EC10BA00AFB10D /* Solution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2BD7B3422EC10BA00AFB10D /* Solution.cpp */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D2BD7B2922EBF0D300AFB10D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D2BD7B2522EBF0D300AFB10D /* LeetCode 160.Intersection of Two LinkedLists.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D2BD7B1B22EBF0BD00AFB10D;
-			remoteInfo = "LeetCode 160.Intersection of Two LinkedLists";
-		};
-		D2BD7B2F22EBF0D600AFB10D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D2BD7B2B22EBF0D600AFB10D /* LeetCode 160.Intersection of Two LinkedLists.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D2BD7B1B22EBF0BD00AFB10D;
-			remoteInfo = "LeetCode 160.Intersection of Two LinkedLists";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		D266E8A522EBE00000AA2B96 /* CopyFiles */ = {
+		D2BD7B1922EBF0BD00AFB10D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -40,14 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D266E8A722EBE00000AA2B96 /* LeetCode 92. Reverse Linked List II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode 92. Reverse Linked List II"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D266E8AA22EBE00000AA2B96 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		D2BD7B2522EBF0D300AFB10D /* LeetCode 160.Intersection of Two LinkedLists.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "LeetCode 160.Intersection of Two LinkedLists.xcodeproj"; path = "../../../../../../../../../../Users/swae/Documents/Github/LearningLeetCode/LinkedList/LeetCode 160.Intersection of Two LinkedLists/LeetCode 160.Intersection of Two LinkedLists.xcodeproj"; sourceTree = "<group>"; };
-		D2BD7B2B22EBF0D600AFB10D /* LeetCode 160.Intersection of Two LinkedLists.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "LeetCode 160.Intersection of Two LinkedLists.xcodeproj"; path = "../../../../../../../../../../Users/swae/Documents/Github/LearningLeetCode/LinkedList/LeetCode 160.Intersection of Two LinkedLists/LeetCode 160.Intersection of Two LinkedLists.xcodeproj"; sourceTree = "<group>"; };
+		D2BD7B1B22EBF0BD00AFB10D /* LeetCode 160.Intersection of Two LinkedLists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode 160.Intersection of Two LinkedLists"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2BD7B1E22EBF0BD00AFB10D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D2BD7B3422EC10BA00AFB10D /* Solution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Solution.cpp; path = "../../../../../../../../System/Volumes/Data/Users/swae/Documents/Github/LearningLeetCode/LinkedList/LeetCode 160.Intersection of Two LinkedLists/LeetCode 160.Intersection of Two LinkedLists/Solution.cpp"; sourceTree = "<group>"; };
+		D2BD7B3522EC10BA00AFB10D /* Solution.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Solution.hpp; path = "../../../../../../../../System/Volumes/Data/Users/swae/Documents/Github/LearningLeetCode/LinkedList/LeetCode 160.Intersection of Two LinkedLists/LeetCode 160.Intersection of Two LinkedLists/Solution.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D266E8A422EBE00000AA2B96 /* Frameworks */ = {
+		D2BD7B1822EBF0BD00AFB10D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -57,139 +41,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D266E89E22EBE00000AA2B96 = {
+		D2BD7B1222EBF0BD00AFB10D = {
 			isa = PBXGroup;
 			children = (
-				D2BD7B2522EBF0D300AFB10D /* LeetCode 160.Intersection of Two LinkedLists.xcodeproj */,
-				D2BD7B2B22EBF0D600AFB10D /* LeetCode 160.Intersection of Two LinkedLists.xcodeproj */,
-				D266E8A922EBE00000AA2B96 /* LeetCode 92. Reverse Linked List II */,
-				D266E8A822EBE00000AA2B96 /* Products */,
+				D2BD7B1D22EBF0BD00AFB10D /* LeetCode 160.Intersection of Two LinkedLists */,
+				D2BD7B1C22EBF0BD00AFB10D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D266E8A822EBE00000AA2B96 /* Products */ = {
+		D2BD7B1C22EBF0BD00AFB10D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D266E8A722EBE00000AA2B96 /* LeetCode 92. Reverse Linked List II */,
+				D2BD7B1B22EBF0BD00AFB10D /* LeetCode 160.Intersection of Two LinkedLists */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D266E8A922EBE00000AA2B96 /* LeetCode 92. Reverse Linked List II */ = {
+		D2BD7B1D22EBF0BD00AFB10D /* LeetCode 160.Intersection of Two LinkedLists */ = {
 			isa = PBXGroup;
 			children = (
-				D266E8AA22EBE00000AA2B96 /* main.cpp */,
+				D2BD7B1E22EBF0BD00AFB10D /* main.cpp */,
+				D2BD7B3422EC10BA00AFB10D /* Solution.cpp */,
+				D2BD7B3522EC10BA00AFB10D /* Solution.hpp */,
 			);
-			path = "LeetCode 92. Reverse Linked List II";
-			sourceTree = "<group>";
-		};
-		D2BD7B2622EBF0D300AFB10D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D2BD7B2A22EBF0D300AFB10D /* LeetCode 160.Intersection of Two LinkedLists */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D2BD7B2C22EBF0D600AFB10D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D2BD7B3022EBF0D600AFB10D /* LeetCode 160.Intersection of Two LinkedLists */,
-			);
-			name = Products;
+			path = "LeetCode 160.Intersection of Two LinkedLists";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D266E8A622EBE00000AA2B96 /* LeetCode 92. Reverse Linked List II */ = {
+		D2BD7B1A22EBF0BD00AFB10D /* LeetCode 160.Intersection of Two LinkedLists */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D266E8AE22EBE00000AA2B96 /* Build configuration list for PBXNativeTarget "LeetCode 92. Reverse Linked List II" */;
+			buildConfigurationList = D2BD7B2222EBF0BD00AFB10D /* Build configuration list for PBXNativeTarget "LeetCode 160.Intersection of Two LinkedLists" */;
 			buildPhases = (
-				D266E8A322EBE00000AA2B96 /* Sources */,
-				D266E8A422EBE00000AA2B96 /* Frameworks */,
-				D266E8A522EBE00000AA2B96 /* CopyFiles */,
+				D2BD7B1722EBF0BD00AFB10D /* Sources */,
+				D2BD7B1822EBF0BD00AFB10D /* Frameworks */,
+				D2BD7B1922EBF0BD00AFB10D /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "LeetCode 92. Reverse Linked List II";
-			productName = "LeetCode 92. Reverse Linked List II";
-			productReference = D266E8A722EBE00000AA2B96 /* LeetCode 92. Reverse Linked List II */;
+			name = "LeetCode 160.Intersection of Two LinkedLists";
+			productName = "LeetCode 160.Intersection of Two LinkedLists";
+			productReference = D2BD7B1B22EBF0BD00AFB10D /* LeetCode 160.Intersection of Two LinkedLists */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D266E89F22EBE00000AA2B96 /* Project object */ = {
+		D2BD7B1322EBF0BD00AFB10D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = xiaoyuan;
 				TargetAttributes = {
-					D266E8A622EBE00000AA2B96 = {
+					D2BD7B1A22EBF0BD00AFB10D = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
-			buildConfigurationList = D266E8A222EBE00000AA2B96 /* Build configuration list for PBXProject "LeetCode 92. Reverse Linked List II" */;
+			buildConfigurationList = D2BD7B1622EBF0BD00AFB10D /* Build configuration list for PBXProject "LeetCode 160.Intersection of Two LinkedLists" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = D266E89E22EBE00000AA2B96;
-			productRefGroup = D266E8A822EBE00000AA2B96 /* Products */;
+			mainGroup = D2BD7B1222EBF0BD00AFB10D;
+			productRefGroup = D2BD7B1C22EBF0BD00AFB10D /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = D2BD7B2C22EBF0D600AFB10D /* Products */;
-					ProjectRef = D2BD7B2B22EBF0D600AFB10D /* LeetCode 160.Intersection of Two LinkedLists.xcodeproj */;
-				},
-				{
-					ProductGroup = D2BD7B2622EBF0D300AFB10D /* Products */;
-					ProjectRef = D2BD7B2522EBF0D300AFB10D /* LeetCode 160.Intersection of Two LinkedLists.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				D266E8A622EBE00000AA2B96 /* LeetCode 92. Reverse Linked List II */,
+				D2BD7B1A22EBF0BD00AFB10D /* LeetCode 160.Intersection of Two LinkedLists */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		D2BD7B2A22EBF0D300AFB10D /* LeetCode 160.Intersection of Two LinkedLists */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = "LeetCode 160.Intersection of Two LinkedLists";
-			remoteRef = D2BD7B2922EBF0D300AFB10D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D2BD7B3022EBF0D600AFB10D /* LeetCode 160.Intersection of Two LinkedLists */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = "LeetCode 160.Intersection of Two LinkedLists";
-			remoteRef = D2BD7B2F22EBF0D600AFB10D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXSourcesBuildPhase section */
-		D266E8A322EBE00000AA2B96 /* Sources */ = {
+		D2BD7B1722EBF0BD00AFB10D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D266E8AB22EBE00000AA2B96 /* main.cpp in Sources */,
+				D2BD7B3622EC10BA00AFB10D /* Solution.cpp in Sources */,
+				D2BD7B1F22EBF0BD00AFB10D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D266E8AC22EBE00000AA2B96 /* Debug */ = {
+		D2BD7B2022EBF0BD00AFB10D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -248,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		D266E8AD22EBE00000AA2B96 /* Release */ = {
+		D2BD7B2122EBF0BD00AFB10D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -300,7 +242,7 @@
 			};
 			name = Release;
 		};
-		D266E8AF22EBE00000AA2B96 /* Debug */ = {
+		D2BD7B2322EBF0BD00AFB10D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -309,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		D266E8B022EBE00000AA2B96 /* Release */ = {
+		D2BD7B2422EBF0BD00AFB10D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -321,25 +263,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D266E8A222EBE00000AA2B96 /* Build configuration list for PBXProject "LeetCode 92. Reverse Linked List II" */ = {
+		D2BD7B1622EBF0BD00AFB10D /* Build configuration list for PBXProject "LeetCode 160.Intersection of Two LinkedLists" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D266E8AC22EBE00000AA2B96 /* Debug */,
-				D266E8AD22EBE00000AA2B96 /* Release */,
+				D2BD7B2022EBF0BD00AFB10D /* Debug */,
+				D2BD7B2122EBF0BD00AFB10D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D266E8AE22EBE00000AA2B96 /* Build configuration list for PBXNativeTarget "LeetCode 92. Reverse Linked List II" */ = {
+		D2BD7B2222EBF0BD00AFB10D /* Build configuration list for PBXNativeTarget "LeetCode 160.Intersection of Two LinkedLists" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D266E8AF22EBE00000AA2B96 /* Debug */,
-				D266E8B022EBE00000AA2B96 /* Release */,
+				D2BD7B2322EBF0BD00AFB10D /* Debug */,
+				D2BD7B2422EBF0BD00AFB10D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D266E89F22EBE00000AA2B96 /* Project object */;
+	rootObject = D2BD7B1322EBF0BD00AFB10D /* Project object */;
 }
