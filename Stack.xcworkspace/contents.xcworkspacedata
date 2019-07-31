@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Stack/LeetCode 155.MinStack/LeetCode 155.MinStack.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Stack/LeetCode 232.Implement Queue using Stacks/LeetCode 232.Implement Queue using Stacks.xcodeproj">
    </FileRef>
    <FileRef
