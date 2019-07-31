@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Stack/LeetCode 232.Implement Queue using Stacks/LeetCode 232.Implement Queue using Stacks.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Stack/LeetCode 225.Implement Stack using Queues/LeetCode 225.Implement Stack using Queues.xcodeproj">
    </FileRef>
 </Workspace>
