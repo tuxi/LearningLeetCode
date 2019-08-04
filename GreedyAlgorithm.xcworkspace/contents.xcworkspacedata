@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../../../../../System/Volumes/Data/Users/swae/Documents/Github/LearningLeetCode/GreedyAlgorithm/LeetCode 376. Wiggle Subsequence/LeetCode 376. Wiggle Subsequence.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:../../../../../System/Volumes/Data/Users/swae/Documents/Github/LearningLeetCode/GreedyAlgorithm/FindChange/FindChange.xcodeproj">
    </FileRef>
    <FileRef

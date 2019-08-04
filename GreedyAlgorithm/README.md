@@ -27,5 +27,7 @@
 故，当前最优解即为全局最优解，贪心成立! 
 思考: 如果增加7元面额，贪心还成立吗? 答案：不成立的。
 
-示例：
-FindChange 项目
+### Example
+- FindChange
+- LeetCode 455.Assign Cookies
+- LeetCode 376. Wiggle Subsequence
