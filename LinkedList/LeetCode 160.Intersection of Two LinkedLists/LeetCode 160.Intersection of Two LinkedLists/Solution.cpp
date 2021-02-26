@@ -20,6 +20,9 @@ int getListLen(ListNode *head) {
     return len;
 }
 
+
+
+
 // 将指针向前移动至多出节点个数后面的个数
 ListNode *forward_long_list(int long_len, int short_len, ListNode *head) {
     int delta = long_len - short_len;
@@ -55,6 +58,7 @@ ListNode * Solution::getIntersectionNode1(ListNode *headA, ListNode *headB) {
     return NULL;
 }
 
+
 ListNode * Solution::getIntersectionNode2(ListNode *headA, ListNode *headB) {
     
     // 1. 分别计算这两个链表的长度
@@ -63,7 +67,7 @@ ListNode * Solution::getIntersectionNode2(ListNode *headA, ListNode *headB) {
     
     if (list_a_len > list_b_len) {
         // 如果链表A长，就移动链表A到对应的位置
-        headA = forward_long_list(list_a_len, list_a_len, headA);
+        headA = forward_long_list(list_a_len, list_b_len, headA);
     }
     else {
         // 如果链表B长，就移动链表B到对应的位置
@@ -84,4 +88,3 @@ ListNode * Solution::getIntersectionNode2(ListNode *headA, ListNode *headB) {
     
     return NULL;
 }
-

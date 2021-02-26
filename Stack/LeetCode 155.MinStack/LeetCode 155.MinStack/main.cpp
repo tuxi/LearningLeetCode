@@ -68,12 +68,14 @@ public:
         return _data.top();
     }
     int getMin() {
+        std::cout << "数量：";
+        std::cout << _min_data.size() << std::endl;
         return _min_data.top();
     }
 private:
+    // 存储数据的栈_data，辅助栈_min_data
     std::stack<int> _data, _min_data;
 };
-
 
 
 int main(int argc, const char * argv[]) {

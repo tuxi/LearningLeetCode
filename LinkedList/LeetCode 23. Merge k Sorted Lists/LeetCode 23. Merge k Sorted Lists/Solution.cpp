@@ -44,7 +44,7 @@ ListNode*Solution::mergeKLists1(vector<ListNode*>& lists) {
 // 使用归并算法合并两个有序链表，合并后依旧有序
 ListNode *Solution::mergeTwoList(ListNode *headA, ListNode *headB) {
     ListNode tempHead(0);
-    ListNode *headPtr = &tempHead;
+    ; *headPtr = &tempHead;
     
     while (headA && headB) {
         if (headA->val < headB->val) {
@@ -96,3 +96,28 @@ ListNode*Solution::mergeKLists2(vector<ListNode*>& lists) {
     ListNode *list2 = this->mergeKLists2(sub_list2);
     return mergeTwoList(list1, list2);
 }
+
+ListNode*Solution::mergeKLists2(vector<ListNode *> &lists) {
+    if (lists.size() == 0) {
+        return NULL;
+    }
+    if (lists.size() == 1) {
+        return lists[0];
+    }
+    if (lists.size() == 2) {
+        return mergeTwoList(lists[0], lists[1]);
+    }
+    
+    // 拆分lists为两个子list
+    size_t mid = lists.size() / 2;
+    std::vector<ListNode *> sub_list1;
+    std::vector<ListNode *> sub_list2;
+    for (size_t i = 0; i < mid; i++) {
+        sub_list1.push_back(lists[i])
+    }
+    for (size_t i = mid; i < mid; i++) {
+        sub_list2.push_back(lists[1])
+    }
+}
+
+

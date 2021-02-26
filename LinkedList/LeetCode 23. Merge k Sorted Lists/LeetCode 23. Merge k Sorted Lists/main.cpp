@@ -45,9 +45,9 @@ void test1() {
     ListNode b(4);
     ListNode c(5);
     ListNode d(1);
-    ListNode e(3);
-    ListNode f(4);
-    ListNode g(2);
+    ListNode e(0);
+    ListNode f(8);
+    ListNode g(11);
     ListNode h(6);
     a.next = &b;
     b.next = &c;
@@ -60,41 +60,43 @@ void test1() {
     lists.push_back(&d);
     lists.push_back(&g);
     ListNode *head = solve.mergeKLists1(lists);
-    while(head){
-        printf("%d\n", head->val);
+    while (head) {
+        std::cout << head->val << endl;
         head = head->next;
     }
 }
 
 void test2() {
     ListNode a(1);
-    ListNode b(4);
+    ListNode b(2);
     ListNode c(5);
     ListNode d(1);
     ListNode e(3);
-    ListNode f(4);
-    ListNode g(2);
-    ListNode h(6);
+    ListNode f(7);
+    ListNode g(8);
+    ListNode h(4);
     a.next = &b;
     b.next = &c;
     d.next = &e;
     e.next = &f;
     g.next = &h;
+    
     Solution solve;
     std::vector<ListNode *> lists;
     lists.push_back(&a);
     lists.push_back(&d);
     lists.push_back(&g);
+    
     ListNode *head = solve.mergeKLists2(lists);
-    while(head){
-        printf("%d\n", head->val);
+    while (head) {
+        std::cout << head->val << endl;
         head = head->next;
     }
 }
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-//    test1();
-    test2();
+    test1();
+//    test2();
     return 0;
 }

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0A02F6225B85E1600221C7B /* Solution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0A02F6025B85E1600221C7B /* Solution.cpp */; };
 		D2BD7B1F22EBF0BD00AFB10D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2BD7B1E22EBF0BD00AFB10D /* main.cpp */; };
-		D2BD7B3622EC10BA00AFB10D /* Solution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2BD7B3422EC10BA00AFB10D /* Solution.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D0A02F6025B85E1600221C7B /* Solution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Solution.cpp; sourceTree = "<group>"; };
+		D0A02F6125B85E1600221C7B /* Solution.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Solution.hpp; sourceTree = "<group>"; };
 		D2BD7B1B22EBF0BD00AFB10D /* LeetCode 160.Intersection of Two LinkedLists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode 160.Intersection of Two LinkedLists"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2BD7B1E22EBF0BD00AFB10D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		D2BD7B3422EC10BA00AFB10D /* Solution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Solution.cpp; path = "../../../../../../../../System/Volumes/Data/Users/swae/Documents/Github/LearningLeetCode/LinkedList/LeetCode 160.Intersection of Two LinkedLists/LeetCode 160.Intersection of Two LinkedLists/Solution.cpp"; sourceTree = "<group>"; };
-		D2BD7B3522EC10BA00AFB10D /* Solution.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Solution.hpp; path = "../../../../../../../../System/Volumes/Data/Users/swae/Documents/Github/LearningLeetCode/LinkedList/LeetCode 160.Intersection of Two LinkedLists/LeetCode 160.Intersection of Two LinkedLists/Solution.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,9 @@
 		D2BD7B1D22EBF0BD00AFB10D /* LeetCode 160.Intersection of Two LinkedLists */ = {
 			isa = PBXGroup;
 			children = (
+				D0A02F6025B85E1600221C7B /* Solution.cpp */,
+				D0A02F6125B85E1600221C7B /* Solution.hpp */,
 				D2BD7B1E22EBF0BD00AFB10D /* main.cpp */,
-				D2BD7B3422EC10BA00AFB10D /* Solution.cpp */,
-				D2BD7B3522EC10BA00AFB10D /* Solution.hpp */,
 			);
 			path = "LeetCode 160.Intersection of Two LinkedLists";
 			sourceTree = "<group>";
@@ -123,7 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2BD7B3622EC10BA00AFB10D /* Solution.cpp in Sources */,
+				D0A02F6225B85E1600221C7B /* Solution.cpp in Sources */,
 				D2BD7B1F22EBF0BD00AFB10D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

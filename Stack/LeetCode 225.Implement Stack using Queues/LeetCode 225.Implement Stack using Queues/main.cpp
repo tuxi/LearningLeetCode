@@ -4,7 +4,7 @@
 //
 //  Created by swae on 2019/7/27.
 //  Copyright © 2019 xiaoyuan. All rights reserved.
-//
+//  用队列实现栈
 
 #include <iostream>
 #include <queue>

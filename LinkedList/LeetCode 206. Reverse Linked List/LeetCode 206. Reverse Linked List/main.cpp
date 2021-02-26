@@ -21,13 +21,10 @@
 struct ListNode {
     int val; // 数据域
     ListNode *next; // 指针域
-    ListNode(int x) : val(x), next(NULL) {
-        
-    }
+    ListNode(int x) : val(x), next(NULL) {}
 };
 
 class Solution {
-    
 public:
     // 使用头插法实现单链表反转
     ListNode *reverseList(ListNode *head) {
@@ -39,6 +36,23 @@ public:
             // 获取当前链表的下一个p节点
             ListNode *next = p->next;
             // 当前节点的next指针指向新链表头部
+            p->next = new_head;
+            // 更改新链表头部为当前节点
+            new_head = p;
+            // 移动
+            p = next;
+        }
+        return new_head;
+    }
+    
+    ListNode *reverseList(ListNode *head) {
+        // 定义临时指针变量，指向头节点
+        ListNode *p = head;
+        // 定义新的链表，座位反转后的链表
+        ListNode *new_head = NULL;
+        while (p) {
+            // 获取当前链表的下一个p节点
+            ListNode *next = p->next;
             p->next = new_head;
             // 更改新链表头部为当前节点
             new_head = p;

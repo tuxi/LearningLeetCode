@@ -71,7 +71,7 @@ void test2() {
 int main(int argc, const char * argv[]) {
     // insert code here...
     
-//    test1();
+     test1();
     test2();
     
     return 0;

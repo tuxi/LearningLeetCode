@@ -58,6 +58,8 @@ ListNode *Solution::detectCycle2(ListNode *head) {
         // 如果没有相遇，则证明没有环
         return NULL;
     }
+    
+    // meet和head到环的起点的距离相等。（数学证明）
     ListNode *ptr = head;
     while (ptr && meet) {
         if (ptr == meet) {
